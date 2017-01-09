@@ -13,6 +13,42 @@
     </Organization>
     <Hold release_date="2017-01-31" attribute_cdeid="X1e9tWOhM"></Hold>
   </Description>
+    <Action>
+    <AddData target_db="BioProject" attribute_cdeid="Q125vZO3f">
+      <Data content_type="xml">
+        <XmlContent>
+          <Project schema_version="2.0">
+            <ProjectID attribute_cdeid="71TAZ78lX">
+              <SPUID spuid_namespace="CFSAN" attribute_cdeid="7kEgUTH4kkx">MIDI_ISO_9154</SPUID>
+            </ProjectID>
+            <Descriptor>
+              <Title attribute_cdeid="mJzdTg_2M">GenomeTrakr Project: Epidemiological Research Center at Sinaloa,
+                Mexico:sp_3-.2014-09-26_11-47</Title>
+              <Description>
+                <p>GenomeTrakr Project: Epidemiological Research Center at Sinaloa, Mexico</p>
+              </Description>
+              <ExternalLink attribute_cdeid="mJPlmmIxX" label="Website: Epidemiological Research Center at Sinaloa, Mexico">
+                <URL attribute_cdeid="7JAY7mLxQ">http://www.hgculiacan.com/cies/cies%20descripcion.htm</URL>
+              </ExternalLink>
+              <Relevance attribute_cdeid="mJQWNQUlm">
+                <Medical>Yes</Medical>
+              </Relevance>
+            </Descriptor>
+            <ProjectType>
+              <ProjectTypeSubmission sample_scope="eMultispecies" attribute_cdeid="719GK78xX">
+                <IntendedDataTypeSet>
+                  <DataType>genome sequencing</DataType>
+                </IntendedDataTypeSet>
+              </ProjectTypeSubmission>
+            </ProjectType>
+          </Project>
+        </XmlContent>
+      </Data>
+      <Identifier>
+        <SPUID spuid_namespace="CFSAN" attribute_cdeid="7kEgUTH4kkx">MIDI_ISO_9154</SPUID>
+      </Identifier>
+    </AddData>
+  </Action>
   <Action>
     <AddData target_db="BioSample" attribute_cdeid="Q125vZO3f">
       <Data content_type="XML">
